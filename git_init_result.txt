@@ -1,0 +1,2 @@
+Initialized empty Git repository in G:/projects/General Tools and Docs/.git/
+Git init exit code: 0 
