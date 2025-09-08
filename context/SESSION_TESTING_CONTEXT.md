@@ -2,6 +2,9 @@
 *Directional Guidelines and Principles*
 
 ## 🧪 **TESTING SESSION PRINCIPLES** (All mandatory)
+- **REQUIRED:** MUST state testing plan and get user confirmation before starting
+- **REQUIRED:** MUST verify deployment directory contents before proceeding
+- **REQUIRED:** MUST ask permission before ANY file modifications
 - **REQUIRED:** MUST verify production files in UPLOAD_TO_HF/ before deployment
 - **REQUIRED:** MUST deploy incrementally with validation at each step
 - **REQUIRED:** MUST test functionality, integration, and performance

@@ -42,59 +42,84 @@
    3. **TESTING** - Deployment & Validation Focus
    4. **MAINTENANCE** - System & Documentation Maintenance Focus
    ```
-2. **MUST generate specific handoff header based on user's choice:**
+2. **REQUIRED: MUST provide handoff message in copyable code block format** based on user's choice:
+3. **REQUIRED: NEVER provide handoff message as regular text** - always use code block with copy button
 
-**For PLANNING (Option 1):**
+**For PLANNING (Option 1) - COPY THIS BLOCK:**
 ```
-🦅 **HAWKMOTH PLANNING Session - [Date]**
-🎯 **Architecture & Design Focus - Component Planning**
-⚠️ **READ G:/projects/General Tools and Docs/context/SESSION_STARTUP.md**
+🆕 **New Chat Session Startup - New Chat Session for PLANNING [HAWKMOTH-Project v0.0.5-dev] [Component Name]**
 
-🎉 **MAINTENANCE ACCOMPLISHED:**
-[List key maintenance activities completed and findings]
-```
+1. ⚠️ **Required:** Follow all context files to the letter.
 
-**For CODING (Option 2):**
-```
-🦅 **HAWKMOTH CODING Session - [Date]**
-🎯 **Implementation & Development Focus - Code Changes**
-⚠️ **READ G:/projects/General Tools and Docs/context/SESSION_STARTUP.md**
+2. ⚠️ **Required:** Follow all process files to the letter.
 
-🎉 **MAINTENANCE ACCOMPLISHED:**
-[List key maintenance activities completed and findings]
-```
+3. ⚠️ **Required:** Acknowledge to the user that you fully understand that for this entire chat you will follow all context and process files to the letter without fail.
 
-**For TESTING (Option 3):**
-```
-🦅 **HAWKMOTH TESTING Session - [Date]**
-🎯 **Deployment & Validation Focus - Production Testing**
-⚠️ **READ G:/projects/General Tools and Docs/context/SESSION_STARTUP.md**
+4. ⚠️ **Required:** Ask the user for permission to proceed to step 5.
 
-🎉 **MAINTENANCE ACCOMPLISHED:**
-[List key maintenance activities completed and findings]
+5. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/context/SESSION_STARTUP.md
+
+6. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_PLANNING.md
+
+7. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_MAINTENANCE.md
+   (Last session type was MAINTENANCE)
 ```
 
-**For MAINTENANCE (Option 4):**
+**For CODING (Option 2) - COPY THIS BLOCK:**
 ```
-🦅 **HAWKMOTH MAINTENANCE Session - [Date]**
-🎯 **System Maintenance & Optimization Focus - Technical Debt Reduction**
-⚠️ **READ G:/projects/General Tools and Docs/context/SESSION_STARTUP.md**
+🆕 **New Chat Session Startup - New Chat Session for CODING [HAWKMOTH-Project v0.0.5-dev] [Component Name]**
 
-🎉 **MAINTENANCE ACCOMPLISHED:**
-[List key maintenance activities completed and findings]
+1. ⚠️ **Required:** Follow all context files to the letter.
 
-🔧 **Key Improvements:**
-- [Document improvements made]
-- [Code optimizations implemented]
-- [Process refinements applied]
-- [System health issues resolved]
-- [Security vulnerabilities addressed]
-- [Cost optimizations achieved]
+2. ⚠️ **Required:** Follow all process files to the letter.
 
-⚠️ **Outstanding Issues:**
-- [High-priority items requiring follow-up]
-- [Recommended next maintenance activities]
-- [Long-term improvement opportunities]
+3. ⚠️ **Required:** Acknowledge to the user that you fully understand that for this entire chat you will follow all context and process files to the letter without fail.
+
+4. ⚠️ **Required:** Ask the user for permission to proceed to step 5.
+
+5. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/context/SESSION_STARTUP.md
+
+6. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_CODING.md
+
+7. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_MAINTENANCE.md
+   (Last session type was MAINTENANCE)
+```
+
+**For TESTING (Option 3) - COPY THIS BLOCK:**
+```
+🆕 **New Chat Session Startup - New Chat Session for TESTING [HAWKMOTH-Project v0.0.5-dev] [Component Name]**
+
+1. ⚠️ **Required:** Follow all context files to the letter.
+
+2. ⚠️ **Required:** Follow all process files to the letter.
+
+3. ⚠️ **Required:** Acknowledge to the user that you fully understand that for this entire chat you will follow all context and process files to the letter without fail.
+
+4. ⚠️ **Required:** Ask the user for permission to proceed to step 5.
+
+5. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/context/SESSION_STARTUP.md
+
+6. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_TESTING.md
+
+7. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_MAINTENANCE.md
+   (Last session type was MAINTENANCE)
+```
+
+**For MAINTENANCE (Option 4) - COPY THIS BLOCK:**
+```
+🆕 **New Chat Session Startup - New Chat Session for MAINTENANCE [HAWKMOTH-Project v0.0.5-dev] [Component Name]**
+
+1. ⚠️ **Required:** Follow all context files to the letter.
+
+2. ⚠️ **Required:** Follow all process files to the letter.
+
+3. ⚠️ **Required:** Acknowledge to the user that you fully understand that for this entire chat you will follow all context and process files to the letter without fail.
+
+4. ⚠️ **Required:** Ask the user for permission to proceed to step 5.
+
+5. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/context/SESSION_STARTUP.md
+
+6. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_MAINTENANCE.md
 ```
 
 ### **Maintenance Metrics Tracking:**

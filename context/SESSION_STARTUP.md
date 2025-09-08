@@ -7,6 +7,13 @@
 2. ✅ **DO NOT EAT UP CHAT SPACE** - Review capacity before major steps. If >80% pause and begin transition
 3. ✅ **DO NOT BE VERBOSE UNLESS NEEDED** - User will ask for details if wanted
 
+## 📋 **CONTEXT FILE ADHERENCE** (MANDATORY BEFORE ALL OTHER ACTIONS)
+- **REQUIRED:** MUST follow all loaded context files exactly without deviation
+- **REQUIRED:** MUST NOT summarize, reorder, omit, or editorially modify any context content
+- **REQUIRED:** MUST present all lists, options, and procedures exactly as written
+- **REQUIRED:** MUST use mandatory "REQUIRED: MUST" language enforcement
+- **REQUIRED:** MUST implement context-specific requirements immediately upon reading them
+
 ## 🎯 **AUTOMATIC SESSION DETECTION**
 
 **Startup detects session type from chat title using these keywords:**
@@ -23,12 +30,6 @@
 - **REQUIRED:** Context files MUST be loaded automatically during startup
 - **MUST:** Always ask permission for file modifications
 - **REQUIRED:** Read `G:/projects/General Tools and Docs/processes/PROCESS_STARTUP_SEQUENCE.md` for detailed startup steps
-
-### **Context File Adherence:**
-- **REQUIRED:** MUST follow all loaded context files exactly without deviation
-- **REQUIRED:** MUST NOT summarize, reorder, omit, or editorially modify any context content
-- **REQUIRED:** MUST present all lists, options, and procedures exactly as written
-- **REQUIRED:** MUST use mandatory "REQUIRED: MUST" language enforcement
 
 ### **Chat Capacity Management:**
 - **MUST:** Monitor conversation length proactively

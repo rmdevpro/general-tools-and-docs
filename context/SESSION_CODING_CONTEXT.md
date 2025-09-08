@@ -18,6 +18,7 @@
 - **Detailed startup steps:** **REQUIRED: MUST read** `G:/projects/General Tools and Docs/processes/PROCESS_STARTUP_SEQUENCE.md`
 - **Transition procedures:** **REQUIRED: MUST read** `G:/projects/General Tools and Docs/processes/PROCESS_TRANSITION_CODING.md`
 - **Git operations:** **REQUIRED: MUST read** `G:/projects/General Tools and Docs/processes/PROCESS_GIT_OPERATIONS.md`
+- **Deployment procedures:** **REQUIRED: MUST read** `G:/projects/General Tools and Docs/processes/PROCESS_DEPLOYMENT.md` **when implementation complete**
 
 ## 🔄 **TRANSITION TRIGGER**
 When user requests transition or handoff:

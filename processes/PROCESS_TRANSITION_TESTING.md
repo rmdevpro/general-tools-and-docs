@@ -36,46 +36,100 @@
    3. **TESTING** - Deployment & Validation Focus
    4. **MAINTENANCE** - System & Documentation Maintenance Focus
    ```
-2. **MUST generate specific handoff header based on user's choice:**
+2. **REQUIRED: MUST provide handoff message in copyable code block format** based on user's choice:
+3. **REQUIRED: NEVER provide handoff message as regular text** - always use code block with copy button
 
-**For PLANNING (Option 1):**
+**For PLANNING (Option 1) - COPY THIS BLOCK:**
 ```
-🦅 **HAWKMOTH PLANNING Session - [Date]**
-🎯 **Architecture & Design Focus - Component Planning**
-⚠️ **READ G:/projects/General Tools and Docs/context/SESSION_STARTUP.md**
+🆕 **New Chat Session Startup - New Chat Session for PLANNING [HAWKMOTH-Project v0.0.5-dev] [Component Name]**
 
-🎉 **TESTING ACCOMPLISHED:**
-[List deployment results and validation status]
-```
+1. ⚠️ **Required:** Follow all context files to the letter.
 
-**For CODING (Option 2):**
-```
-🦅 **HAWKMOTH CODING Session - [Date]**
-🎯 **Implementation & Development Focus - Code Changes**
-⚠️ **READ G:/projects/General Tools and Docs/context/SESSION_STARTUP.md**
+2. ⚠️ **Required:** Follow all process files to the letter.
 
-🎉 **TESTING ACCOMPLISHED:**
-[List deployment results and validation status]
-```
+3. ⚠️ **Required:** State to the user that you fully understand that for this entire chat you will:
+   - Follow all context and process files to the letter without fail
+   - Your judgment is INFERIOR to the documentation
+   - When your judgment conflicts with documentation, the documentation is ALWAYS correct
+   - When you feel the urge to "prioritize" or "be helpful" instead of following documentation exactly, the documentation takes precedence
 
-**For TESTING (Option 3):**
-```
-🦅 **HAWKMOTH TESTING Session - [Date]**
-🎯 **Deployment & Validation Focus - Production Testing**
-⚠️ **READ G:/projects/General Tools and Docs/context/SESSION_STARTUP.md**
+4. ⚠️ **Required:** Ask the user for permission to proceed to step 5.
 
-🎉 **TESTING ACCOMPLISHED:**
-[List deployment results and validation status]
+5. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/context/SESSION_STARTUP.md
+
+6. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_PLANNING.md
+
+7. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_TESTING.md
+   (Last session type was TESTING)
 ```
 
-**For MAINTENANCE (Option 4):**
+**For CODING (Option 2) - COPY THIS BLOCK:**
 ```
-🦅 **HAWKMOTH MAINTENANCE Session - [Date]**
-🎯 **System Maintenance & Optimization Focus - Technical Debt Reduction**
-⚠️ **READ G:/projects/General Tools and Docs/context/SESSION_STARTUP.md**
+🆕 **New Chat Session Startup - New Chat Session for CODING [HAWKMOTH-Project v0.0.5-dev] [Component Name]**
 
-🎉 **TESTING ACCOMPLISHED:**
-[List deployment results and validation status]
+1. ⚠️ **Required:** Follow all context files to the letter.
+
+2. ⚠️ **Required:** Follow all process files to the letter.
+
+3. ⚠️ **Required:** State to the user that you fully understand that for this entire chat you will:
+   - Follow all context and process files to the letter without fail
+   - Your judgment is INFERIOR to the documentation
+   - When your judgment conflicts with documentation, the documentation is ALWAYS correct
+   - When you feel the urge to "prioritize" or "be helpful" instead of following documentation exactly, the documentation takes precedence
+
+4. ⚠️ **Required:** Ask the user for permission to proceed to step 5.
+
+5. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/context/SESSION_STARTUP.md
+
+6. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_CODING.md
+
+7. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_TESTING.md
+   (Last session type was TESTING)
+```
+
+**For TESTING (Option 3) - COPY THIS BLOCK:**
+```
+🆕 **New Chat Session Startup - New Chat Session for TESTING [HAWKMOTH-Project v0.0.5-dev] [Component Name]**
+
+1. ⚠️ **Required:** Follow all context files to the letter.
+
+2. ⚠️ **Required:** Follow all process files to the letter.
+
+3. ⚠️ **Required:** State to the user that you fully understand that for this entire chat you will:
+   - Follow all context and process files to the letter without fail
+   - Your judgment is INFERIOR to the documentation
+   - When your judgment conflicts with documentation, the documentation is ALWAYS correct
+   - When you feel the urge to "prioritize" or "be helpful" instead of following documentation exactly, the documentation takes precedence
+
+4. ⚠️ **Required:** Ask the user for permission to proceed to step 5.
+
+5. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/context/SESSION_STARTUP.md
+
+6. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_TESTING.md
+```
+
+**For MAINTENANCE (Option 4) - COPY THIS BLOCK:**
+```
+🆕 **New Chat Session Startup - New Chat Session for MAINTENANCE [HAWKMOTH-Project v0.0.5-dev] [Component Name]**
+
+1. ⚠️ **Required:** Follow all context files to the letter.
+
+2. ⚠️ **Required:** Follow all process files to the letter.
+
+3. ⚠️ **Required:** State to the user that you fully understand that for this entire chat you will:
+   - Follow all context and process files to the letter without fail
+   - Your judgment is INFERIOR to the documentation
+   - When your judgment conflicts with documentation, the documentation is ALWAYS correct
+   - When you feel the urge to "prioritize" or "be helpful" instead of following documentation exactly, the documentation takes precedence
+
+4. ⚠️ **Required:** Ask the user for permission to proceed to step 5.
+
+5. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/context/SESSION_STARTUP.md
+
+6. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_MAINTENANCE.md
+
+7. ⚠️ **Required - Read:** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_TESTING.md
+   (Last session type was TESTING)
 ```
 
 ---

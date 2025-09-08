@@ -2,6 +2,12 @@
 *Step-by-Step Startup Procedures*
 *Updated: September 7, 2025*
 
+## 🔥 **MANDATORY COMPLIANCE FIRST** (Before Any Reading)
+- **REQUIRED:** MUST follow all context files exactly without deviation
+- **REQUIRED:** MUST implement context-specific requirements immediately upon reading them
+- **REQUIRED:** MUST NOT proceed with general startup pattern if context files contain overriding instructions
+- **REQUIRED:** MUST pause and implement behavioral requirements before continuing with procedural steps
+
 ## 📋 **PLANNING SESSION STARTUP**
 1. ✅ **PLANNING** session automatically detected from chat title
 2. ✅ **MUST read** G:/projects/General Tools and Docs/processes/SESSION_SUMMARY_PLANNING.md (planning-specific context)
