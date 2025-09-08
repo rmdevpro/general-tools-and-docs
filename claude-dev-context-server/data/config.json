@@ -1,5 +1,6 @@
 {
   "context_directory": "G:/projects/General Tools and Docs",
+  "data_directory": "G:/projects/General Tools and Docs/claude-dev-context-server/data",
   "session_detection": {
     "PLANNING": ["Planning", "Architecture", "Design"],
     "CODING": ["Coding", "Implementation", "Development"], 

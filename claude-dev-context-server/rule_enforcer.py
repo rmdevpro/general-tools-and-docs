@@ -173,8 +173,13 @@ class RuleEnforcer:
         }
         
         # Check permission requirement
-        if self.check_permission_required(action):
+        permission_required = self.check_permission_required(action)
+        user_permission_given = context.get("user_permission", False)
+        
+        if permission_required and not user_permission_given:
+            result["compliant"] = False
             result["required_steps"].append("Ask user permission before proceeding")
+            result["blocked_actions"].append(f"Action requires user permission: {action}")
         
         # Validate file operations
         if "file" in context or "path" in context:
@@ -188,7 +193,7 @@ class RuleEnforcer:
                 result["blocked_actions"].append(f"File operation not allowed: {action}")
                 result["warnings"].extend(file_validation.get("rules_applied", []))
         
-        # Check capacity warnings
+        # Check capacity warnings and enforce critical capacity restrictions
         if "capacity" in context:
             capacity = context["capacity"]
             if isinstance(capacity, str) and "%" in capacity:
@@ -198,15 +203,26 @@ class RuleEnforcer:
                 if capacity_num >= thresholds["immediate"]:
                     result["warnings"].append("⚠️ CRITICAL: Chat capacity at 90%+ - MUST transition immediately")
                     result["required_steps"].append("Begin immediate handoff procedures")
+                    
+                    # At critical capacity, block non-essential actions
+                    if not self._is_transition_action(action):
+                        result["compliant"] = False
+                        result["blocked_actions"].append(f"Action blocked due to critical capacity: {action}")
+                        
                 elif capacity_num >= thresholds["critical"]:
                     result["warnings"].append("⚠️ WARNING: Chat capacity at 80%+ - Plan transition soon")
                     result["required_steps"].append("Prepare for session transition")
         
-        # Session-specific validations
+        # Session-specific validations with enforcement
         session_type = context.get("session_type")
         if session_type:
             session_warnings = self._validate_session_rules(action, session_type)
             result["warnings"].extend(session_warnings)
+            
+            # Enforce session rule violations for major mismatches
+            if self._is_major_session_violation(action, session_type):
+                result["compliant"] = False
+                result["blocked_actions"].append(f"Action violates {session_type} session rules: {action}")
         
         return result
     
@@ -243,3 +259,29 @@ class RuleEnforcer:
                 warnings.append("Maintenance sessions should focus on small fixes and updates")
         
         return warnings
+    
+    def _is_transition_action(self, action: str) -> bool:
+        """Check if action is related to session transition (allowed at critical capacity)"""
+        action_lower = action.lower()
+        
+        transition_keywords = [
+            "transition", "handoff", "summary", "status", "complete", 
+            "finish", "wrap up", "next session", "prepare for", "save progress"
+        ]
+        
+        return any(keyword in action_lower for keyword in transition_keywords)
+    
+    def _is_major_session_violation(self, action: str, session_type: str) -> bool:
+        """Check if action is a major violation of session rules"""
+        action_lower = action.lower()
+        
+        # Major violations by session type
+        violations = {
+            "PLANNING": ["deploy", "production", "release", "publish"],
+            "TESTING": ["deploy", "production", "release", "new project", "major refactor"],
+            "MAINTENANCE": ["deploy", "production", "major rewrite", "new feature", "breaking change"],
+            "CODING": ["deploy", "production"]  # Coding sessions shouldn't deploy directly
+        }
+        
+        session_violations = violations.get(session_type, [])
+        return any(violation in action_lower for violation in session_violations)

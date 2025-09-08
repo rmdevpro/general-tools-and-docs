@@ -17,7 +17,7 @@ class SessionManager:
         """Initialize with configuration"""
         self.config_path = Path(config_path)
         self.config = self._load_config()
-        self.state_file = self.config_path.parent / "data" / "session_state.json"
+        self.state_file = self.config_path / "data" / "session_state.json"
         self.state = self._load_state()
     
     def _load_config(self) -> Dict:
