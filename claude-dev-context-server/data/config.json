@@ -1,0 +1,21 @@
+{
+  "context_directory": "G:/projects/General Tools and Docs",
+  "session_detection": {
+    "PLANNING": ["Planning", "Architecture", "Design"],
+    "CODING": ["Coding", "Implementation", "Development"], 
+    "TESTING": ["Testing", "Deployment", "Validation"],
+    "MAINTENANCE": ["Maintenance", "Review", "Audit", "Health"]
+  },
+  "capacity_thresholds": {
+    "warning": 60,
+    "critical": 80,
+    "immediate": 90
+  },
+  "context_files": {
+    "PLANNING": "context/SESSION_PLANNING_CONTEXT.md",
+    "CODING": "context/SESSION_CODING_CONTEXT.md", 
+    "TESTING": "context/SESSION_TESTING_CONTEXT.md",
+    "MAINTENANCE": "context/SESSION_MAINTENANCE_CONTEXT.md"
+  },
+  "startup_process": "processes/PROCESS_STARTUP_SEQUENCE.md"
+}

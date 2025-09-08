@@ -1,0 +1,19 @@
+warning: in the working copy of 'MCP_PROJECT_CONTROL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git_workflow_add.bat', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git_workflow_commit.bat', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'git_workflow_push.bat', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'IMPROVED_GIT_PROCESS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'PHASE_2_COMPLETE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'PHASE_3_COMPLETE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/capacity_monitor.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/context_loader.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/data/config.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/data/context_cache.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/data/session_state.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/requirements.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/rule_enforcer.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/server.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/session_manager.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'claude-dev-context-server/test_basic.py', LF will be replaced by CRLF the next time Git touches it
+Git add exit code: 0 

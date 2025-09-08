@@ -1,0 +1,17 @@
+{
+  "current_session": {
+    "type": null,
+    "start_time": null,
+    "chat_title": null,
+    "capacity_used": "0%",
+    "status": "inactive"
+  },
+  "loaded_contexts": [],
+  "active_rules": [],
+  "session_progress": {
+    "completed_steps": [],
+    "current_step": null,
+    "next_actions": []
+  },
+  "decisions_log": []
+}
